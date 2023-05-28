@@ -145,6 +145,11 @@ margin-left: 15px;
   border-radius: 2px;
 
 }
+#change{
+  background: linear-gradient(0deg, #47ba6872, #47ba686f),
+  linear-gradient(0deg, #D7EDDD, #D7EDDD);
+}
+
 .reco{
   background-color:green;
   color: white;
@@ -160,6 +165,8 @@ margin-left: 15px;
 .recoinp{
   position: relative;
   left: 18px;
+    background-color: #47BA68;
+
 }
 .recop{
   position: relative;
@@ -201,8 +208,6 @@ color:rgba(0, 0, 0, 0.37)}
 font-size: 24px;
 font-weight: 600;
 text-align: center;
-
-
 }
 
 
@@ -217,7 +222,7 @@ text-align: center;
   margin: 10px 20px;
   height: 35px;
   text-align: left;
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 .formtxt3 p{
@@ -238,7 +243,7 @@ text-align: center;
 .formtxt4{
   border: 1px solid black;
   margin: 0px 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   height: 170px
 }
 .formtxt4in1{
