@@ -1,0 +1,388 @@
+.body{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    height: 50px;
+    text-align: center;
+ 
+  }
+  .navlogo h1{
+    color:#0048FF;
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+
+  }
+  .navleft{
+    display: flex;
+    position: relative;
+    right: 150px;
+    
+    
+  }
+  .navleft div{
+    margin-left: 20px;
+  }
+  .navright{
+    display: flex;
+
+  }
+  .search img{
+    margin-top: 5px;
+  }
+  .navright div{
+    margin: 10px 10px;
+  }
+  .navright button{
+    background:linear-gradient(#0048FF,#0096FF);
+    padding: 7px 30px;
+    border: 0;
+    border-radius: 30px;
+  }
+
+
+
+  /* content */
+
+  .content{
+    background: url("E:\web_technlogies\react js\eyodaapp\public\images\Back Ground.jpg");
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+  }
+
+  .blue{
+    color: #0048FF;
+  }
+
+.icontxtblock{
+    display: flex;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+}
+.icontxtblock p{
+margin-left: 10px;
+}
+.icontxtblock img{
+  height: 50px;
+  width: 50px;
+}
+.icontxt{
+    display: flex;
+}
+.strike {
+  height: 5px;
+  width: 120px;
+  background-color: red;
+  position: relative;
+  top: 25px;
+  left: 170px;
+}
+.block1{
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  right: 90px;
+}
+.block1in{
+  display: flex;
+  position: relative;
+  bottom: 40px;
+  right: 70px;
+}
+.block1in p{
+  margin-top: 20px;
+}
+.block1in p{
+margin-left: 15px;
+}
+.content1{
+  position: relative;
+  left: 150px;
+}
+.content{
+  display: flex;
+
+}
+.block2{
+  position: relative;
+  bottom: 40px;
+}
+/* form */
+.form{
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  color: black;
+  border-radius: 10px;
+}
+.forminn{
+  position: relative;
+  bottom: 30px;
+}
+
+.expired{
+  background-color:#E3561F;
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  height: 12px;
+  width: 70px;
+  position: relative;
+  left: 80px;
+  bottom: 18px;
+  border-radius: 2px;
+
+}
+.reco{
+  background-color:green;
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  height: 12px;
+  width: 70px;
+  position: relative;
+  right: 165px;
+
+  border-radius: 2px;
+}
+.recoinp{
+  position: relative;
+  left: 18px;
+}
+.recop{
+  position: relative;
+  left: 20px;
+}
+.recop1{
+  position: relative;
+  right: 20px;
+}
+.formtxtinexp{
+color:rgba(0, 0, 0, 0.37)}
+
+.formtxt1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.formtxtin1 input{
+  position: relative;
+  right: 5px;
+}
+.circle{
+  background-color: #0096FF;
+  border-radius:70px;
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+}
+
+.circetxt{
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+}
+.formtxt2{
+  font-family: Roboto;
+font-size: 24px;
+font-weight: 600;
+text-align: center;
+
+
+}
+
+
+.rupe{
+  position: relative;
+  left: 8px;
+}
+.formtxt3{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 10px 20px;
+  height: 35px;
+  text-align: left;
+  border-radius: 10px;
+
+}
+.formtxt3 p{
+  position: relative;
+  bottom: 10px;
+}
+.formtxtin1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divoff{
+  display: flex;
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+.formtxt4{
+  border: 1px solid black;
+  margin: 0px 20px;
+  border-radius: 10px;
+  height: 170px
+}
+.formtxt4in1{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  border-radius: 10px;
+
+}
+.formtxt4in2{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #EB7533;
+  border-radius: 5px;
+  margin: 10px 0px;
+  height: 70px;
+  background: linear-gradient(135deg, #DE4313 0%, #DE4313 0.75%, #DE4313 2.92%, #DE4414 6.37%, #DF4515 10.97%, #DF4816 16.59%, #E04B18 23.1%, #E1501B 30.37%, #E3561F 38.27%, #E55E24 46.66%, #E7682B 55.41%, #EB7533 64.39%, #EE843C 73.47%, #F39547 82.52%, #F8A954 91.41%, #FEC163 100%),
+  linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+  text-align: left;
+  position: relative;
+  bottom: 20px;
+
+
+}
+.formtxt4in3{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  position: relative;
+  bottom: 35px;
+
+}
+
+.formtxt4in2in{
+  display: block;
+}
+
+.formtxt2,.formtxt3,.formtxt4{
+  position: relative;
+  bottom: 40px;
+}
+.but1 a{
+  background-color: white;
+  border: 1px solid #EB7533;
+  color: #EB7533;
+  padding: 8px 40px;
+  border-radius: 3px;
+
+}
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 45px;
+}
+.buttons a{
+  text-decoration: none;
+}
+.but2 a{
+  background: #47BA68;
+  color:white;
+  padding: 8px 40px;
+  border-radius: 3px;
+}
+.pay img{
+  position: relative;
+  right: 130px;
+  bottom: 20px;
+  height: 25px;
+  width: 80px;
+}
+.formtxtin2 p{
+  font-size: 10px;
+}
+
+/* icons */
+.v11 img{
+  height: 10px;
+  width:10px;
+  position: relative;
+  bottom: 28px;
+  left: 21px;
+}
+.v21 img{
+  height: 30px;
+  width:15px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.v31 img{
+  height: 15px;
+  width:30px;
+  position: relative;
+  bottom: 35px;
+  left: 10px;
+}
+.v41 img{
+  height: 10px;
+  width:20px;
+  position: relative;
+  bottom: 35px;
+  left: 1px;
+    rotate:180deg;
+
+
+}
+.v43 img{
+  height: 10px;
+  width:20px;
+  position: relative;
+  right: 2px;
+  bottom: 35px;
+
+}
+.v42 img{
+  height: 14px;
+  width:10px;
+  position: relative;
+  bottom: 30px;
+}
+.v411{
+  display: flex;
+  margin-top: 4px;
+}
+
+.v311{
+  display: flex;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+.v51 img{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  bottom: 45px;
+  left: 10px;
+}
+.v52 h2{
+  color:white;
+  position: relative;
+  bottom: 85px;
+  left: 10px;
+  font-size: 15px;
+}
